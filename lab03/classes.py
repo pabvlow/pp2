@@ -19,6 +19,6 @@ print(p1.x)
 #exercise 4
 
 class Person:
-    def init(self, name, age):
+    def __init__(self, name, age):
        self.name = name
        self.age = age
